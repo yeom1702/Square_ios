@@ -1,0 +1,114 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BBBadgeBarButtonItem (1.2)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DMActivityInstagram (0.0.5)
+  - FBSDKCoreKit (4.15.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.15.0):
+    - FBSDKCoreKit
+  - google-plus-ios-sdk (1.7.1)
+  - iToast (0.0.1)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MBProgressHUD (1.0.0)
+  - MGEvents (1.1.0)
+  - MPFlipViewController (0.0.2)
+  - PromiseKit/base (1.5.3):
+    - PromiseKit/Promise
+    - PromiseKit/Until
+    - PromiseKit/When
+  - PromiseKit/Promise (1.5.3)
+  - PromiseKit/Until (1.5.3):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.5.3):
+    - PromiseKit/Promise
+  - Reachability (3.2)
+  - SBJson (4.0.2)
+  - SGHTTPRequest (1.5.0):
+    - AFNetworking (~> 2.0)
+  - SGImageCache (2.2.1):
+    - AFNetworking (~> 2.0)
+    - MGEvents
+    - PromiseKit/base (~> 1.5)
+    - SGHTTPRequest
+  - SHGestureRecognizerBlocks (1.1.1)
+  - STTwitter (0.2.5)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking (= 2.6.1)
+  - BBBadgeBarButtonItem
+  - DMActivityInstagram
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - google-plus-ios-sdk
+  - iToast
+  - JSQMessagesViewController
+  - MBProgressHUD
+  - MPFlipViewController
+  - Reachability
+  - SBJson
+  - SGImageCache
+  - SHGestureRecognizerBlocks
+  - STTwitter
+  - SWTableViewCell
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DMActivityInstagram: c82f3e965482500ba8bc62115ef830ada2e51394
+  FBSDKCoreKit: 6680cbd33a4243d80700f182d0af36b3fa7f3118
+  FBSDKLoginKit: 96d9b70b5784490f02ab86119e542a1f182017a8
+  google-plus-ios-sdk: 47adbe03ea904bdb7aa1c0eca282a23c4686e1bc
+  iToast: df147188215cc3293bd4366822833f2862fec451
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MGEvents: 04c4c5b49a420a4895c5bb676ccc708311176d14
+  MPFlipViewController: 86caa6203ca9d35af23cc6b4e1bcf53e53333770
+  PromiseKit: ecdccab1791b95b4752a9fac57223044f5a6c105
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SGHTTPRequest: 5a17ca1891dc489efa08c1d100c3f423006a4870
+  SGImageCache: ee904688e3300152e313742c3ce9ebe9094672c8
+  SHGestureRecognizerBlocks: 20419fac0f8dcec8e2a339c078df1993aeae07e4
+  STTwitter: 5c157e8dcb4f0e4cf5b4374393021b7d7b7fd497
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: 145375a9a89edadda68e41eb243295c2fb8a7c58
+
+COCOAPODS: 1.0.1
