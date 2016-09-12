@@ -454,13 +454,13 @@
         <scene sceneID="XrS-Kk-JMJ">
             <objects>
                 <tableViewController id="D5E-GU-k6d" customClass="FavoriteViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dnq-qw-IMF">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dnq-qw-IMF" customClass="MIResizableTableView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3is-Bi-xmL">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3is-Bi-xmL" id="Vo1-XT-ni0">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -473,12 +473,12 @@
                             <outlet property="delegate" destination="D5E-GU-k6d" id="afg-Ah-nXt"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="udb-HW-WQS"/>
+                    <navigationItem key="navigationItem" id="4om-E6-LbH"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPE-6g-TIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1255.5" y="-1291.5"/>
+            <point key="canvasLocation" x="1828.5" y="-1292.5"/>
         </scene>
         <!--Rank View Controller-->
         <scene sceneID="SfC-7B-oxa">
@@ -778,7 +778,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="D5E-GU-k6d" kind="relationship" relationship="viewControllers" id="hTQ-EY-Wmb"/>
+                        <segue destination="zah-gy-QIj" kind="relationship" relationship="viewControllers" id="hTQ-EY-Wmb"/>
                         <segue destination="PS3-tC-L3z" kind="relationship" relationship="viewControllers" id="T3d-Bx-IrL"/>
                         <segue destination="t9R-cf-INo" kind="relationship" relationship="viewControllers" id="knr-fM-5sp"/>
                         <segue destination="TcP-My-k4d" kind="relationship" relationship="viewControllers" id="o8F-Pb-392"/>
@@ -992,6 +992,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9LF-cl-wJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1256" y="423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UBX-hP-XgZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zah-gy-QIj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="udb-HW-WQS"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QsD-pJ-l2E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D5E-GU-k6d" kind="relationship" relationship="rootViewController" id="bkx-CK-4BV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D18-qc-Sic" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1255" y="-1292"/>
         </scene>
     </scenes>
     <resources>

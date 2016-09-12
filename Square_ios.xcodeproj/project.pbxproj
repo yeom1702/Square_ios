@@ -60,6 +60,9 @@
 		A655C9201D8297ED008633AC /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A655C91F1D8297ED008633AC /* Square.m */; };
 		A65AF0A11D7FAC2D009EFAAE /* SquareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65AF0A01D7FAC2D009EFAAE /* SquareListViewController.m */; };
 		A6C5AF431D8694E700116B86 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF421D8694E700116B86 /* FavoriteViewController.m */; };
+		A6C5AF4C1D869BB200116B86 /* MIResizableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF471D869BB200116B86 /* MIResizableTableView.m */; };
+		A6C5AF4D1D869BB200116B86 /* MIResizableTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF4A1D869BB200116B86 /* MIResizableTableViewSectionHeader.m */; };
+		A6C5AF4E1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C5AF4B1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +131,11 @@
 		A67183371D796A640045029D /* Square_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C5AF411D8694E700116B86 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
 		A6C5AF421D8694E700116B86 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		A6C5AF461D869BB200116B86 /* MIResizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableView.h; sourceTree = "<group>"; };
+		A6C5AF471D869BB200116B86 /* MIResizableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIResizableTableView.m; sourceTree = "<group>"; };
+		A6C5AF491D869BB200116B86 /* MIResizableTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableViewSectionHeader.h; sourceTree = "<group>"; };
+		A6C5AF4A1D869BB200116B86 /* MIResizableTableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIResizableTableViewSectionHeader.m; sourceTree = "<group>"; };
+		A6C5AF4B1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIResizableTableViewSectionHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +228,8 @@
 				A655C91F1D8297ED008633AC /* Square.m */,
 				A65445B81D7CFCE400E27C9C /* controller */,
 				A65445D71D7CFD1C00E27C9C /* view */,
+				A6C5AF441D869BB200116B86 /* util */,
+				A6C5AF4F1D869BC400116B86 /* network */,
 				A65445C31D7CFCE400E27C9C /* images */,
 				A65445B11D7CFCE400E27C9C /* AppDelegate.h */,
 				A65445B21D7CFCE400E27C9C /* AppDelegate.m */,
@@ -322,6 +332,41 @@
 				A65445C01D7CFCE400E27C9C /* SettingViewController.m */,
 			);
 			name = Setting;
+			sourceTree = "<group>";
+		};
+		A6C5AF441D869BB200116B86 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A6C5AF451D869BB200116B86 /* MIResizableTableView */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		A6C5AF451D869BB200116B86 /* MIResizableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A6C5AF461D869BB200116B86 /* MIResizableTableView.h */,
+				A6C5AF471D869BB200116B86 /* MIResizableTableView.m */,
+				A6C5AF481D869BB200116B86 /* SectionHeader */,
+			);
+			path = MIResizableTableView;
+			sourceTree = "<group>";
+		};
+		A6C5AF481D869BB200116B86 /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A6C5AF491D869BB200116B86 /* MIResizableTableViewSectionHeader.h */,
+				A6C5AF4A1D869BB200116B86 /* MIResizableTableViewSectionHeader.m */,
+				A6C5AF4B1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib */,
+			);
+			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		A6C5AF4F1D869BC400116B86 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		B45D333ED85C60EEAA707E3C /* Pods */ = {
@@ -427,6 +472,7 @@
 				A631816A1D7D5BB400B2F834 /* on.png in Resources */,
 				A631816C1D7D5BB400B2F834 /* profile.png in Resources */,
 				A63181641D7D5BB400B2F834 /* bar@2x.png in Resources */,
+				A6C5AF4E1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib in Resources */,
 				A65445CC1D7CFCE400E27C9C /* LaunchScreen.storyboard in Resources */,
 				A63181791D7D5BB400B2F834 /* x@2x.png in Resources */,
 				A63181701D7D5BB400B2F834 /* profile02@2x.png in Resources */,
@@ -493,7 +539,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C5AF4C1D869BB200116B86 /* MIResizableTableView.m in Sources */,
 				A65445CA1D7CFCE400E27C9C /* AppDelegate.m in Sources */,
+				A6C5AF4D1D869BB200116B86 /* MIResizableTableViewSectionHeader.m in Sources */,
 				A65445CE1D7CFCE400E27C9C /* SquareViewController.m in Sources */,
 				A6487F551D7EB2B9003FF555 /* ListViewController.m in Sources */,
 				A65445D01D7CFCE400E27C9C /* RankViewController.m in Sources */,
