@@ -52,7 +52,6 @@
 		A65445CF1D7CFCE400E27C9C /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65445BC1D7CFCE400E27C9C /* IssueViewController.m */; };
 		A65445D01D7CFCE400E27C9C /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65445BE1D7CFCE400E27C9C /* RankViewController.m */; };
 		A65445D11D7CFCE400E27C9C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65445C01D7CFCE400E27C9C /* SettingViewController.m */; };
-		A65445D21D7CFCE400E27C9C /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65445C21D7CFCE400E27C9C /* StatusViewController.m */; };
 		A65445D31D7CFCE400E27C9C /* 05_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A65445C51D7CFCE400E27C9C /* 05_off.png */; };
 		A65445D41D7CFCE400E27C9C /* 05_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A65445C61D7CFCE400E27C9C /* 05_on.png */; };
 		A65445D51D7CFCE400E27C9C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A65445C71D7CFCE400E27C9C /* Info.plist */; };
@@ -60,6 +59,7 @@
 		A65445DD1D7D0F5C00E27C9C /* gradation.png in Resources */ = {isa = PBXBuildFile; fileRef = A65445DC1D7D0F5C00E27C9C /* gradation.png */; };
 		A655C9201D8297ED008633AC /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A655C91F1D8297ED008633AC /* Square.m */; };
 		A65AF0A11D7FAC2D009EFAAE /* SquareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65AF0A01D7FAC2D009EFAAE /* SquareListViewController.m */; };
+		A6C5AF431D8694E700116B86 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF421D8694E700116B86 /* FavoriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,8 +116,6 @@
 		A65445BE1D7CFCE400E27C9C /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
 		A65445BF1D7CFCE400E27C9C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		A65445C01D7CFCE400E27C9C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		A65445C11D7CFCE400E27C9C /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
-		A65445C21D7CFCE400E27C9C /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
 		A65445C51D7CFCE400E27C9C /* 05_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05_off.png; sourceTree = "<group>"; };
 		A65445C61D7CFCE400E27C9C /* 05_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05_on.png; sourceTree = "<group>"; };
 		A65445C71D7CFCE400E27C9C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +126,8 @@
 		A65AF09F1D7FAC2D009EFAAE /* SquareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListViewController.h; sourceTree = "<group>"; };
 		A65AF0A01D7FAC2D009EFAAE /* SquareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListViewController.m; sourceTree = "<group>"; };
 		A67183371D796A640045029D /* Square_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C5AF411D8694E700116B86 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		A6C5AF421D8694E700116B86 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,14 +236,13 @@
 		A65445B81D7CFCE400E27C9C /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				A65445C11D7CFCE400E27C9C /* StatusViewController.h */,
-				A65445C21D7CFCE400E27C9C /* StatusViewController.m */,
+				A6C5AF411D8694E700116B86 /* FavoriteViewController.h */,
+				A6C5AF421D8694E700116B86 /* FavoriteViewController.m */,
 				A6487F481D7EABB5003FF555 /* Issue */,
 				A6487F491D7EABC7003FF555 /* Square */,
+				A6C15F5D1D8661C000777BB7 /* Setting */,
 				A65445BD1D7CFCE400E27C9C /* RankViewController.h */,
 				A65445BE1D7CFCE400E27C9C /* RankViewController.m */,
-				A65445BF1D7CFCE400E27C9C /* SettingViewController.h */,
-				A65445C01D7CFCE400E27C9C /* SettingViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -314,6 +313,15 @@
 				A67183371D796A640045029D /* Square_ios.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C15F5D1D8661C000777BB7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A65445BF1D7CFCE400E27C9C /* SettingViewController.h */,
+				A65445C01D7CFCE400E27C9C /* SettingViewController.m */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 		B45D333ED85C60EEAA707E3C /* Pods */ = {
@@ -491,8 +499,8 @@
 				A65445D01D7CFCE400E27C9C /* RankViewController.m in Sources */,
 				A65445CF1D7CFCE400E27C9C /* IssueViewController.m in Sources */,
 				A65AF0A11D7FAC2D009EFAAE /* SquareListViewController.m in Sources */,
-				A65445D21D7CFCE400E27C9C /* StatusViewController.m in Sources */,
 				A65445D61D7CFCE400E27C9C /* main.m in Sources */,
+				A6C5AF431D8694E700116B86 /* FavoriteViewController.m in Sources */,
 				A655C9201D8297ED008633AC /* Square.m in Sources */,
 				A65445D11D7CFCE400E27C9C /* SettingViewController.m in Sources */,
 			);

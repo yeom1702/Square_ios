@@ -19,6 +19,7 @@ target 'Square_ios' do
     pod 'SBJson'
     pod 'MBProgressHUD'
     pod ‘BBBadgeBarButtonItem’
+    pod ‘BFPaperCheckbox’
     
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'

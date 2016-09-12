@@ -24,6 +24,8 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - BBBadgeBarButtonItem (1.2)
+  - BFPaperCheckbox (1.2.8):
+    - UIColor+BFPaperColors
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -31,9 +33,9 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
   - DMActivityInstagram (0.0.5)
-  - FBSDKCoreKit (4.15.0):
+  - FBSDKCoreKit (4.15.1):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.15.0):
+  - FBSDKLoginKit (4.15.1):
     - FBSDKCoreKit
   - google-plus-ios-sdk (1.7.1)
   - iToast (0.0.1)
@@ -65,11 +67,13 @@ PODS:
   - SHGestureRecognizerBlocks (1.1.1)
   - STTwitter (0.2.5)
   - SWTableViewCell (0.3.7)
+  - UIColor+BFPaperColors (1.7.6)
 
 DEPENDENCIES:
   - AFNetworkActivityLogger
   - AFNetworking (= 2.6.1)
   - BBBadgeBarButtonItem
+  - BFPaperCheckbox
   - DMActivityInstagram
   - FBSDKCoreKit
   - FBSDKLoginKit
@@ -89,10 +93,11 @@ SPEC CHECKSUMS:
   AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  BFPaperCheckbox: 8817f6a07ba8b296867a2ff555cfd3b02a1a1262
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   DMActivityInstagram: c82f3e965482500ba8bc62115ef830ada2e51394
-  FBSDKCoreKit: 6680cbd33a4243d80700f182d0af36b3fa7f3118
-  FBSDKLoginKit: 96d9b70b5784490f02ab86119e542a1f182017a8
+  FBSDKCoreKit: fc7fa53d16b095ee3fd53f0cd59f1df8bcbb634d
+  FBSDKLoginKit: 073f79b3b2e762fc6f54a283fe15f45372d59f5f
   google-plus-ios-sdk: 47adbe03ea904bdb7aa1c0eca282a23c4686e1bc
   iToast: df147188215cc3293bd4366822833f2862fec451
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
@@ -108,7 +113,8 @@ SPEC CHECKSUMS:
   SHGestureRecognizerBlocks: 20419fac0f8dcec8e2a339c078df1993aeae07e4
   STTwitter: 5c157e8dcb4f0e4cf5b4374393021b7d7b7fd497
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  UIColor+BFPaperColors: 37e7b48fa86b29ff2e97a11208ab9cb5ab0b883d
 
-PODFILE CHECKSUM: 145375a9a89edadda68e41eb243295c2fb8a7c58
+PODFILE CHECKSUM: 4dd0cec54f741a222a575ccd8851f9f2dbf9f2aa
 
 COCOAPODS: 1.0.1

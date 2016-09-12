@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <BBBadgeBarButtonItem/BBBadgeBarButtonItem.h>
+#import <BFPaperCheckbox/BFPaperCheckbox.h>
 
 @interface Square : NSObject
 
@@ -18,5 +19,7 @@
 + (BBBadgeBarButtonItem*) createBarButtonItemWithBadgeValue:(NSString*)badgeValue imageName:(NSString*)imageName;
 
 + (BOOL) empty:(NSString*)string;
+
++ (BFPaperCheckbox*) createPaperCheckbox:(CGFloat)originX originY:(CGFloat)originY tagNum:(NSInteger)tagNum;
 
 @end

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9735C9D62280B9F49D995A135390AE01'
+               BlueprintIdentifier = '73A3E2261F77832DEB96034A6D44D4C4'
                BlueprintName = 'SHGestureRecognizerBlocks'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSHGestureRecognizerBlocks.a'>

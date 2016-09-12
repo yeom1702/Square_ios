@@ -48,6 +48,14 @@
     return barButton;
 }
 
++ (BFPaperCheckbox*) createPaperCheckbox:(CGFloat)originX originY:(CGFloat)originY tagNum:(NSInteger)tagNum {
+    CGRect frame = CGRectMake(originX, originY, bfPaperCheckboxDefaultRadius * 2, bfPaperCheckboxDefaultRadius * 2);
+    BFPaperCheckbox *paperCheckbox = [[BFPaperCheckbox alloc] initWithFrame:frame];
+    paperCheckbox.tag = tagNum;
+    
+    return paperCheckbox;
+}
+
 + (BOOL) empty:(NSString*)string
 {
     if (string) {
