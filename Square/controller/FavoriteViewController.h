@@ -10,4 +10,6 @@
 
 @interface FavoriteViewController : UITableViewController
 
+- (void)setProductCategoryWithNoti:(NSNotification *)noti;
+
 @end

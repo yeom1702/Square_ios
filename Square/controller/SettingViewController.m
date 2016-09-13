@@ -7,11 +7,12 @@
 //
 
 #import "SettingViewController.h"
-#import "Square.h"
+#import <BFPaperCheckbox/BFPaperCheckbox.h>
 
 @interface SettingViewController ()
 
 @property NSMutableArray *issueCategory;
+@property NSMutableArray *favoriteArray;
 
 @end
 
@@ -20,14 +21,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _issueCategory = [@[@"정치", @"연예", @"사회", @"스포츠", @"세계", @"생활", @"임시", @"임시"] mutableCopy];
+    _issueCategory = [@[@"정치", @"연예", @"사회", @"스포츠", @"세계", @"생활", @"임시1", @"임시2"] mutableCopy];
+    
+    _favoriteArray = [@[] mutableCopy];
     
     [self setProfile];
     [self setIssueCategory];
     
 }
 
--(void)setProfile {
+-(void)viewWillDisappear:(BOOL)animated {
+    [self checkFavorite];
+    NSDictionary *notiDic = [[NSDictionary alloc] initWithObjectsAndKeys:_favoriteArray, @"favorite", nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"setFavorite" object:nil userInfo:notiDic];
+    [_favoriteArray removeAllObjects];
+    
+}
+
+- (void)setProfile {
     UIImageView *infoImage = (UIImageView *)[self.view viewWithTag:100];
 //    UILabel *infoName = (UILabel *)[self.view viewWithTag:101];
 //    UILabel *infoGender = (UILabel *)[self.view viewWithTag:102];
@@ -37,13 +49,23 @@
     infoImage.image = [UIImage imageNamed:@"girl03.jpeg"];
 }
 
--(void)setIssueCategory {
+- (void)setIssueCategory {
     for (int i = 0; i < _issueCategory.count; i++) {
         UILabel *label = (UILabel*)[self.view viewWithTag:301+i];
         label.text = _issueCategory[i];
-        NSLog(@"%d : %@", i, label.text);
     }
+}
 
+- (void)checkFavorite {
+    for (int i = 0; i < _issueCategory.count; i++) {
+        BFPaperCheckbox *checkBox = (BFPaperCheckbox *)[self.view viewWithTag:401+i];
+        
+        if([checkBox isChecked]) {
+            UILabel *label = (UILabel*)[self.view viewWithTag:301+i];
+            [_favoriteArray addObject:label.text];
+        }
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -33,7 +33,7 @@ static NSString * const reuseIdentifier = @"Cell";
         [_issueItems addObject:[NSString stringWithFormat:@"girl%02d.jpeg",i]];
     }
     
-    _issueCategory = [@[@"정치", @"연예", @"사회", @"스포츠", @"세계", @"생활", @"임시", @"임시"] mutableCopy];
+    _issueCategory = [@[@"정치", @"연예", @"사회", @"스포츠", @"세계", @"생활", @"임시1", @"임시2"] mutableCopy];
     
     //[self reqSearch];
     

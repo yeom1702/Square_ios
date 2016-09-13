@@ -44,6 +44,7 @@
 		A63181781D7D5BB400B2F834 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = A63181611D7D5BB400B2F834 /* x.png */; };
 		A63181791D7D5BB400B2F834 /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A63181621D7D5BB400B2F834 /* x@2x.png */; };
 		A6487F551D7EB2B9003FF555 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6487F541D7EB2B9003FF555 /* ListViewController.m */; };
+		A6535F2F1D87B7D500248A16 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6535F2E1D87B7D500248A16 /* LoginViewController.m */; };
 		A65445CA1D7CFCE400E27C9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65445B21D7CFCE400E27C9C /* AppDelegate.m */; };
 		A65445CB1D7CFCE400E27C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65445B31D7CFCE400E27C9C /* Assets.xcassets */; };
 		A65445CC1D7CFCE400E27C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65445B41D7CFCE400E27C9C /* LaunchScreen.storyboard */; };
@@ -59,6 +60,10 @@
 		A65445DD1D7D0F5C00E27C9C /* gradation.png in Resources */ = {isa = PBXBuildFile; fileRef = A65445DC1D7D0F5C00E27C9C /* gradation.png */; };
 		A655C9201D8297ED008633AC /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A655C91F1D8297ED008633AC /* Square.m */; };
 		A65AF0A11D7FAC2D009EFAAE /* SquareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65AF0A01D7FAC2D009EFAAE /* SquareListViewController.m */; };
+		A695A2D41D877BC800A7C545 /* CategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A695A2CF1D877BC800A7C545 /* CategoryView.m */; };
+		A695A2D51D877BC800A7C545 /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A695A2D01D877BC800A7C545 /* CategoryView.xib */; };
+		A695A2D61D877BC800A7C545 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A695A2D21D877BC800A7C545 /* ProductTableViewCell.m */; };
+		A695A2D71D877BC800A7C545 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A695A2D31D877BC800A7C545 /* ProductTableViewCell.xib */; };
 		A6C5AF431D8694E700116B86 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF421D8694E700116B86 /* FavoriteViewController.m */; };
 		A6C5AF4C1D869BB200116B86 /* MIResizableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF471D869BB200116B86 /* MIResizableTableView.m */; };
 		A6C5AF4D1D869BB200116B86 /* MIResizableTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C5AF4A1D869BB200116B86 /* MIResizableTableViewSectionHeader.m */; };
@@ -106,6 +111,8 @@
 		A63181621D7D5BB400B2F834 /* x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
 		A6487F531D7EB2B9003FF555 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		A6487F541D7EB2B9003FF555 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		A6535F2D1D87B7D500248A16 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A6535F2E1D87B7D500248A16 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		A65445B11D7CFCE400E27C9C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A65445B21D7CFCE400E27C9C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A65445B31D7CFCE400E27C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +136,12 @@
 		A65AF09F1D7FAC2D009EFAAE /* SquareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListViewController.h; sourceTree = "<group>"; };
 		A65AF0A01D7FAC2D009EFAAE /* SquareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListViewController.m; sourceTree = "<group>"; };
 		A67183371D796A640045029D /* Square_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A695A2CE1D877BC800A7C545 /* CategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryView.h; sourceTree = "<group>"; };
+		A695A2CF1D877BC800A7C545 /* CategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryView.m; sourceTree = "<group>"; };
+		A695A2D01D877BC800A7C545 /* CategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
+		A695A2D11D877BC800A7C545 /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		A695A2D21D877BC800A7C545 /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		A695A2D31D877BC800A7C545 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		A6C5AF411D8694E700116B86 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
 		A6C5AF421D8694E700116B86 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 		A6C5AF461D869BB200116B86 /* MIResizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableView.h; sourceTree = "<group>"; };
@@ -227,7 +240,7 @@
 				A655C91E1D8297ED008633AC /* Square.h */,
 				A655C91F1D8297ED008633AC /* Square.m */,
 				A65445B81D7CFCE400E27C9C /* controller */,
-				A65445D71D7CFD1C00E27C9C /* view */,
+				A695A2CD1D877BC800A7C545 /* view */,
 				A6C5AF441D869BB200116B86 /* util */,
 				A6C5AF4F1D869BC400116B86 /* network */,
 				A65445C31D7CFCE400E27C9C /* images */,
@@ -246,6 +259,8 @@
 		A65445B81D7CFCE400E27C9C /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				A6535F2D1D87B7D500248A16 /* LoginViewController.h */,
+				A6535F2E1D87B7D500248A16 /* LoginViewController.m */,
 				A6C5AF411D8694E700116B86 /* FavoriteViewController.h */,
 				A6C5AF421D8694E700116B86 /* FavoriteViewController.m */,
 				A6487F481D7EABB5003FF555 /* Issue */,
@@ -284,13 +299,6 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		A65445D71D7CFD1C00E27C9C /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		A65445DB1D7D0F5C00E27C9C /* _list */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +331,19 @@
 				A67183371D796A640045029D /* Square_ios.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A695A2CD1D877BC800A7C545 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A695A2CE1D877BC800A7C545 /* CategoryView.h */,
+				A695A2CF1D877BC800A7C545 /* CategoryView.m */,
+				A695A2D01D877BC800A7C545 /* CategoryView.xib */,
+				A695A2D11D877BC800A7C545 /* ProductTableViewCell.h */,
+				A695A2D21D877BC800A7C545 /* ProductTableViewCell.m */,
+				A695A2D31D877BC800A7C545 /* ProductTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		A6C15F5D1D8661C000777BB7 /* Setting */ = {
@@ -412,6 +433,7 @@
 				TargetAttributes = {
 					A67183361D796A640045029D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 34JH4A5V8L;
 					};
 				};
 			};
@@ -445,6 +467,7 @@
 				A63181271D7D40DD00B2F834 /* girl11.jpeg in Resources */,
 				A65445D31D7CFCE400E27C9C /* 05_off.png in Resources */,
 				A65445DD1D7D0F5C00E27C9C /* gradation.png in Resources */,
+				A695A2D71D877BC800A7C545 /* ProductTableViewCell.xib in Resources */,
 				A63181771D7D5BB400B2F834 /* user@2x.png in Resources */,
 				A65445D51D7CFCE400E27C9C /* Info.plist in Resources */,
 				A631816D1D7D5BB400B2F834 /* profile01.png in Resources */,
@@ -472,6 +495,7 @@
 				A631816A1D7D5BB400B2F834 /* on.png in Resources */,
 				A631816C1D7D5BB400B2F834 /* profile.png in Resources */,
 				A63181641D7D5BB400B2F834 /* bar@2x.png in Resources */,
+				A695A2D51D877BC800A7C545 /* CategoryView.xib in Resources */,
 				A6C5AF4E1D869BB200116B86 /* MIResizableTableViewSectionHeader.xib in Resources */,
 				A65445CC1D7CFCE400E27C9C /* LaunchScreen.storyboard in Resources */,
 				A63181791D7D5BB400B2F834 /* x@2x.png in Resources */,
@@ -539,10 +563,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A695A2D41D877BC800A7C545 /* CategoryView.m in Sources */,
 				A6C5AF4C1D869BB200116B86 /* MIResizableTableView.m in Sources */,
 				A65445CA1D7CFCE400E27C9C /* AppDelegate.m in Sources */,
 				A6C5AF4D1D869BB200116B86 /* MIResizableTableViewSectionHeader.m in Sources */,
 				A65445CE1D7CFCE400E27C9C /* SquareViewController.m in Sources */,
+				A695A2D61D877BC800A7C545 /* ProductTableViewCell.m in Sources */,
 				A6487F551D7EB2B9003FF555 /* ListViewController.m in Sources */,
 				A65445D01D7CFCE400E27C9C /* RankViewController.m in Sources */,
 				A65445CF1D7CFCE400E27C9C /* IssueViewController.m in Sources */,
@@ -551,6 +577,7 @@
 				A6C5AF431D8694E700116B86 /* FavoriteViewController.m in Sources */,
 				A655C9201D8297ED008633AC /* Square.m in Sources */,
 				A65445D11D7CFCE400E27C9C /* SettingViewController.m in Sources */,
+				A6535F2F1D87B7D500248A16 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,10 +692,14 @@
 			baseConfigurationReference = 2D517961A78109A0905B1D07 /* Pods-Square_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Square/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coconut.Square-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -677,10 +708,14 @@
 			baseConfigurationReference = 6319222039EC5C931B7D7069 /* Pods-Square_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Square/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coconut.Square-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

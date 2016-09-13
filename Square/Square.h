@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <BBBadgeBarButtonItem/BBBadgeBarButtonItem.h>
 #import <BFPaperCheckbox/BFPaperCheckbox.h>
+#import <UIAlertView+Blocks/UIAlertView+Blocks.h>
 
 @interface Square : NSObject
 
@@ -18,8 +19,8 @@
                                                      action:(SEL)action;
 + (BBBadgeBarButtonItem*) createBarButtonItemWithBadgeValue:(NSString*)badgeValue imageName:(NSString*)imageName;
 
-+ (BOOL) empty:(NSString*)string;
++ (void) simpleAlert:(NSString*)message;
 
-+ (BFPaperCheckbox*) createPaperCheckbox:(CGFloat)originX originY:(CGFloat)originY tagNum:(NSInteger)tagNum;
++ (BOOL) empty:(NSString*)string;
 
 @end

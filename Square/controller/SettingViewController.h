@@ -21,9 +21,12 @@
 @property (nonatomic, strong) IBOutlet BFPaperCheckbox *chkCategory8;
 
 // 개인정보 갱신
--(void)setProfile;
+- (void)setProfile;
 
 // 이슈주제 설정
--(void)setIssueCategory;
+- (void)setIssueCategory;
+
+// 즐겨찾기 설정
+- (void)checkFavorite;
 
 @end
